@@ -21,8 +21,7 @@ namespace ProvaFinaleWeek6
                     riconciliare i dati all'origine dei dati.
            4. il dataadapter  si usa nella modalità disconessa e fa da ponte tra il DataSet e l'origine dati e utilizza oggetti 
                 Command per eseguire i comandi SQL
-        5. Lista<Persona> persone= new List<Persona>();
-               var personeMagg= persone.Where(p => p.Età >=18
+        
          */
     }
 }
