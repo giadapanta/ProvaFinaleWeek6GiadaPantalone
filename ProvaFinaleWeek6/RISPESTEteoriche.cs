@@ -19,7 +19,10 @@ namespace ProvaFinaleWeek6
                 tutte le operazioni. Nell'altra modalità non si mantiene la connessione aperta in tutte le operazioni, avviene
                     una copia di dati recuperati in locale, quindi posso modificare i dati recuperati e poi dopo posso far 
                     riconciliare i dati all'origine dei dati.
-                  
+           4. il dataadapter  si usa nella modalità disconessa e fa da ponte tra il DataSet e l'origine dati e utilizza oggetti 
+                Command per eseguire i comandi SQL
+        5. Lista<Persona> persone= new List<Persona>();
+               var personeMagg= persone.Where(p => p.Età >=18
          */
     }
 }
